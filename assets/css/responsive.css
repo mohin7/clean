@@ -1,0 +1,621 @@
+/* ==== Medium Layout: 1280px ==== */
+
+@media only screen and (min-width: 992px) {}
+
+/* ==== Tablet Layout: 767px ==== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        z-index: 999;
+        padding: 20px;
+
+    }
+    a.box-btn {
+        background-color: #fff;
+        color: #333;
+        transition: .3s;
+    }
+    a.box-btn:hover {
+        background-color: #333;
+        color: #fff;
+    }
+    #header-area {
+        display: none;
+    }
+
+    .header-info {
+        margin-top: 80px;
+    }
+
+    #hero-area {
+        background-position: right;
+    }
+
+    .header-info span {
+        padding-left: 29px;
+    }
+    /*if need*/
+    .hero-area {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-area:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: -1;
+        opacity: .7;
+    }
+
+
+    .social-icon-area {
+        text-align: left;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+
+    .hero-area-inner a {
+        font-size: 18px;
+    }
+    .call-phone .fa-mobile {
+        font-size: 25px;
+    }
+
+    .hero-area-inner h3 {
+        font-size: 15px;
+    }
+
+    .hero-area-inner h1 {
+        font-size: 25px;
+    }
+
+    .contact-area {
+        position: inherit;
+    }
+
+    /*    cta*/
+    .cta-wrapper {
+        margin: 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .offset-4,
+    .offset-3,
+    .offset-1,
+    .offset-7 {
+        margin-left: 0;
+    }
+
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+    a.box-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .contact-area {
+        margin-bottom: 30px;
+    }
+
+    .second.circle {
+        margin: 20px 0 30px;
+    }
+    .about-content h3 {
+        margin-bottom: 15px;
+    }
+
+    .about-content .box-btn {
+        margin-top: 20px;
+    }
+    .cta-blue-overlay {
+        border-top: 600px solid #0099FF;
+    }
+    .cta-text h1 {
+        font-size: 25px;
+        margin: 10px 0 15px;
+    }
+
+    .cta-text .stylist-icon {
+        margin: 25px 0;
+    }
+
+    .single-service-item {
+        margin-bottom: 10px;
+    }
+
+
+    .client-image img {
+        margin: 0 auto 30px;
+    }
+
+    .testimonial-inner h4 {
+        margin-top: 20px;
+    }
+
+    .facility-image img {
+        height: 300px;
+        margin-left: 25%;
+        margin-top: 50%
+
+    }
+
+    .single-portfolio-area {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-inormation {
+        margin-top: 10px;
+    }
+
+    .portfolio-inormation h3 {
+        margin: 5px 0;
+    }
+    .portfolio-bg {
+        height: 200px;
+    }
+    .btn-more {
+        margin-top: 0;
+    }
+
+    .single-counter-area {
+        margin-bottom: 15px;
+    }
+
+    .single-logo-item img {
+        margin: 0 auto;
+    }
+
+    .footer-top-area h3 {
+        font-size: 20px;
+    }
+    .single-footer-img img {
+        height: 300px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .single-footer-widget h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-bottom h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* ==== Wide Mobile Layout: 480px ==== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        z-index: 999;
+        padding: 20px;
+
+    }
+    a.box-btn {
+        background-color: #fff;
+        color: #333;
+        transition: .3s;
+    }
+    a.box-btn:hover {
+        background-color: #333;
+        color: #fff;
+    }
+    #header-area {
+        display: none;
+    }
+    div#header-top {}
+
+    .header-info {
+        margin-top: 80px;
+    }
+
+    #hero-area {
+        background-position: right;
+    }
+
+    .header-info span {
+        padding-left: 29px;
+    }
+    /*if need*/
+    .hero-area {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-area:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: -1;
+        opacity: .7;
+    }
+
+
+    .social-icon-area {
+        text-align: left;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+
+    .hero-area-inner a {
+        font-size: 18px;
+    }
+    .call-phone .fa-mobile {
+        font-size: 25px;
+    }
+
+    .hero-area-inner h3 {
+        font-size: 15px;
+    }
+
+    .hero-area-inner h1 {
+        font-size: 25px;
+    }
+
+    .contact-area {
+        position: inherit;
+    }
+
+    /*    cta*/
+    .cta-wrapper {
+        margin: 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .offset-4,
+    .offset-3,
+    .offset-1,
+    .offset-7 {
+        margin-left: 0;
+    }
+
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+    a.box-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .contact-area {
+        margin-bottom: 30px;
+    }
+
+    .second.circle {
+        margin: 20px 0 30px;
+    }
+    .about-content h3 {
+        margin-bottom: 15px;
+    }
+
+    .about-content .box-btn {
+        margin-top: 20px;
+    }
+    .cta-blue-overlay {
+        border-top: 600px solid #0099FF;
+    }
+    .cta-text h1 {
+        font-size: 25px;
+        margin: 10px 0 15px;
+    }
+
+    .cta-text .stylist-icon {
+        margin: 25px 0;
+    }
+
+    .single-service-item {
+        margin-bottom: 10px;
+    }
+
+
+    .client-image img {
+        margin: 0 auto 30px;
+    }
+
+    .testimonial-inner h4 {
+        margin-top: 20px;
+    }
+
+    .facility-image img {
+        height: 300px;
+        margin-left: 25%;
+ 
+    }
+
+    .single-portfolio-area {
+        margin-bottom: 30px;
+    }
+ .portfolio-bg {
+        height: 240px;
+    }
+    .portfolio-inormation {
+        margin-top: 10px;
+    }
+
+    .portfolio-inormation h3 {
+        margin: 5px 0;
+    }
+
+    .btn-more {
+        margin-top: 0;
+    }
+
+    .single-counter-area {
+        margin-bottom: 15px;
+    }
+
+    .single-logo-item img {
+        margin: 0 auto;
+    }
+
+    .footer-top-area h3 {
+        font-size: 20px;
+    }
+    .single-footer-img img {
+        height: 300px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .single-footer-widget h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-bottom h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* ==== Mobile Layout: 320px ==== */
+
+@media only screen and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        z-index: 999;
+        padding: 20px;
+
+    }
+
+    #header-area {
+        display: none;
+    }
+    div#header-top {}
+
+    .header-info {
+        margin-top: 80px;
+    }
+
+    #hero-area {
+        background-position: right;
+    }
+
+    .header-info span {
+        padding-left: 29px;
+    }
+    /*if need*/
+    .hero-area {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-area:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: -1;
+        opacity: .7;
+    }
+    .social-icon-area {
+        text-align: left;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+
+    .hero-area-inner a {
+        font-size: 18px;
+        color: #fff;
+    }
+    .call-phone .fa-mobile {
+        font-size: 20px;
+    }
+
+    .hero-area-inner h3 {
+        font-size: 15px;
+    }
+
+    .hero-area-inner h1 {
+        font-size: 25px;
+    }
+
+    .contact-area {
+        position: inherit;
+    }
+
+    /*    cta*/
+    .cta-wrapper {
+        margin: 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .offset-4,
+    .offset-3,
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+    a.box-btn {
+        background-color: #fff;
+        color: #333;
+    }
+    .section-title {
+        margin-bottom: 30px;
+    }
+    a.box-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    a.box-btn:hover {
+        background-color: #333;
+        color: #fff;
+    }
+    .contact-area {
+        margin-bottom: 30px;
+    }
+
+    .second.circle {
+        margin: 20px 0 30px;
+    }
+    .about-content h3 {
+        margin-bottom: 15px;
+    }
+
+    .about-content .box-btn {
+        margin-top: 20px;
+    }
+    .cta-blue-overlay {
+        border-top: 600px solid #0099FF;
+    }
+    .cta-text h1 {
+        font-size: 25px;
+        margin: 10px 0 15px;
+    }
+
+    .cta-text .stylist-icon {
+        margin: 25px 0;
+    }
+
+    .single-service-item {
+        margin-bottom: 10px;
+    }
+
+
+    .client-image img {
+        margin: 0 auto 30px;
+    }
+
+    .testimonial-inner h4 {
+        margin-top: 20px;
+    }
+
+    .facility-image img {
+        height: 300px;
+        margin-left: 25%;
+
+    }
+
+    .single-portfolio-area {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-inormation {
+        margin-top: 10px;
+    }
+
+    .portfolio-inormation h3 {
+        margin: 5px 0;
+    }
+
+    .btn-more {
+        margin-top: 0;
+    }
+
+    .single-counter-area {
+        margin-bottom: 15px;
+    }
+
+    .single-logo-item img {
+        margin: 0 auto;
+    }
+
+    .footer-top-area h3 {
+        font-size: 20px;
+    }
+    .single-footer-img img {
+        height: 300px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .single-footer-widget h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-bottom h2 {
+        font-size: 20px;
+    }
+
+}
+
+
+/* ==== Tablet Layout: 640px ==== */
+
+@media only screen and (min-width: 640px) and (max-width: 960px) {}
